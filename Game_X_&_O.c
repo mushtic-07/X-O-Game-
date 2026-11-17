@@ -189,7 +189,7 @@ int checkwin() // check for winner.
         if (board[0][column] == board[1][column] && board[2][column] == board[1][column])
             return 1;
     }
-./
+
     // digonal check
     if (board[0][0] == board[1][1] && board[2][2] == board[1][1])
         return 1;
